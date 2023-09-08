@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Mengatur posisi gambar ke tengah vertikal */
+    text-align: center;
+}
+.card-img-top {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px; /* Mengatur margin atas pada gambar */
+    margin-bottom: 10px; /* Mengatur margin bawah pada gambar */
+}
