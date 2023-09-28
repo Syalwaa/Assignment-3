@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#product">PRODUCT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#inventory">INVENTORY</a></li>
+        </ul>
+    </nav>
+    
+    <div class="center-container">
+    <div class="container">
+    <!-- Foto -->
+    <img class="image" src="assets/default.jpg" alt="" id="imageTarget">
+    <!-- user info -->
+    <div class="user-info">
+        <h1 id="nameTarget"> <span id="nameTarget">Nama Anda </span></h1>
+        <p id="roleTarget"> <span id="roleTarget">Role Anda</span></p>
+        <button class="edit" onclick="toggleSections()" type="button" id="edit">Edit</button>
+        <button class="resume" type="button" id="resume">Resume</button>   
+    </div>
+        <table>
+            <tr>
+                <td style="font-weight: bold;">Avaibility</td>
+                <td>:</td>
+                <td><span id="avaibilityTarget"> Avaibility </span></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Usia</td>
+                <td>:</td>
+                <td><span id="usiaTarget"> Usia </span></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Lokasi  </td>
+                <td>:</td>
+                <td><span id="lokasiTarget"> Lokasi </span></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Pengalaman  </td>
+                <td>:</td>
+                <td><span id="pengalamanTarget"> Pengalaman </span></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Email  </td>
+                <td>:</td>
+                <td><span id="emailTarget"> Email </span></td>
+            </tr>
+        </table>
+        </div>
+
+       <form id="myForm" class="hide-content">
+        <h2 class="header">Section Form</h2>
+        <div class="form-container  ">
+            <form action="#" method="post" >
+                <div class="input-container">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" required />
+    
+                    <label for="role">Role</label>
+                    <input type="text" id="role" name="role" required />
+    
+                    <label for="avaibility">Avaibility</label>
+                    <input type="text" id="avaibility" name="avaibility" required />
+    
+                    <label for="usia">Usia</label>
+                    <input type="text" id="usia" name="usia" required />
+    
+                    <label for="lokasi">Lokasi</label>
+                    <input type="text" id="lokasi" name="lokasi" required />
+    
+                    <label for="experience">Years Experience</label>
+                    <input type="text" id="experience" name="experience" required />
+    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required />
+
+                    <label for="formImage">foto</label>
+                    <input type="file" id="image" name="userpicture" accept="image/png, image/jpeg" >                 
+                </div>
+    
+                <div class="button-container">
+                    <button type="submit" id="submit">Kirim</button>
+                </div>
+            </form>
+        </div>
+       </form>
+ 
+    <script src="script.js"></script>
+  
+</body>
+</html>
