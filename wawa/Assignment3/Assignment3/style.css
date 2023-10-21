@@ -1,0 +1,56 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+.country{
+    margin-right: 10px;
+}
+.wrapper {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+}
+body {
+    background-color: rgb(175, 26, 26);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(14, 14, 14);
+}
+
+input[type="text"] {
+    background-color: white;
+    color: black;
+}
+
+#getdata {
+    background-color: rgb(5, 5, 68);
+    color: white;
+}
+
+.wrapper:nth-child(odd) {
+    background-color: #007BFF; /* Biru muda */
+}
+
+.wrapper:nth-child(even) {
+    background-color: #006400; /* Hijau tua */
+}   
+
+.wrapper h3 {
+    color: white;
+}
+
+.box {
+    background-color: white;
+    color: black;
+}

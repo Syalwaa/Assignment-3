@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ED7D31;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    text-align: center; /* Mengatur teks dalam form menjadi tengah */ 
+    justify-content: center; /* Mengatur konten form secara horizontal menjadi tengah */
+    align-items: center; /* Mengatur konten form secara vertikal menjadi tengah */
+ 
+}
+
+form input[type="text"],
+form button {
+   border-radius: 10px;
+    margin-right: 10px; /* Mengatur jarak antara input dan tombol */
+}
+
+form button {
+    background-color: #0C356A;
+    border-radius: 5px;
+    color:#fff;
+    padding: 8px;
+    border-radius:10px;
+
+}
+
+
+.box {
+    background-color: #F99417;
+    padding: 10px;
+    border: 2px solid #008170;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 255, 0, 0.5); /* Bayangan hijau terang */
+}
+
+
+.menu-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mengatur tiga kolom */
+    gap: 20px; /* Mengatur jarak antara kartu */
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px; /* Mengatur jarak dalam kartu */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.price {
+    font-weight: bold;
+    color: #f57224;
+}

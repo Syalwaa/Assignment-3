@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <title>Menu Card</title>
+  </head>
+  <body>
+    <div class="box">
+        <h1>COVID-19 TRACKER</h1>
+        <form action="">
+            <input type="text" name="pencarian" placeholder="" value="" style="text-align: center;">
+            <button  id="getdata" type="button">Get Data</button>
+        </form>
+
+      <div class="menu-card">
+        <div class="card" style="background-color: #17594A;">
+          <img src="image/icon-1.png " style="width: 35px; height: 35px;" >
+          <h2>Active Cases</h2>
+          <div id="active"></div>
+        </div>
+
+        <div class="card" style="background-color: #186F65;">
+          <img src="image/icon-2.png" style="width: 35px; height: 35px;">
+          <h2>New Cases</h2>
+          <div id="newcases"></div>
+        </div>
+
+        <div class="card" style="background-color: #79AC78;">
+          <img src="image/icon-3.png" style="width: 35px; height: 35px;">
+          <h2>Recovered Cases</h2>
+          <div id="recovered"></div>
+        </div>
+
+        <div class="card" style="background-color: #96C291;">
+          <img src="image/icon-4.png" style="width: 35px; height: 35px;">
+          <h2>Total Cases</h2>
+          <div id="totalcases"></div>        
+        </div>
+
+        <div class="card"  style="background-color: #D5FFD0;">
+          <img src="image/icon-5.png" style="width: 35px; height: 35px;">
+          <h2>Total Deaths</h2>
+          <div id="totaldeaths"></div>        
+        </div>
+
+        <div class="card" style="background-color: #A7D397;">
+          <img src="image/icon-6.png" style="width: 35px; height: 35px;">
+          <h2>Total Tests</h2>
+          <div id="totaltests"></div>
+        </div>
+
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
